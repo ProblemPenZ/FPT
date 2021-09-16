@@ -4,7 +4,7 @@ OBJS = *.cpp
 
 CC = g++
 
-INCLUDE_PATHSZ = -IC:\Users\PickP\Desktop\Programming\Projects\FPT\FPT\include
+INCLUDE_PATHSZ = -IC:\Users\PickP\Desktop\Programming\Projects\FPT\include
 
 INCLUDE_PATHS = -IC:\SL\include\SDL2
 
