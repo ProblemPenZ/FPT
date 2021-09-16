@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"map",
+				"map[i]"
+			],
+			[
+				"pla",
+				"player.setDest(player.getDX"
+			],
+			[
+				"jump",
+				"jumping = false;"
+			],
+			[
+				"keys",
+				"keysym.sym"
+			],
+			[
+				"idle",
+				"idlel"
+			],
+			[
+				"get",
+				"getDX"
+			],
+			[
+				"se",
+				"setDest"
+			],
+			[
+				"Pr",
+				"Projects"
+			],
+			[
+				"w",
+				"wavBuffer"
+			],
+			[
+				"r",
+				"running"
+			],
+			[
+				"Get",
+				"SDL_GetTicks"
+			],
+			[
+				"ios",
+				"iostream"
+			],
+			[
+				"p",
+				"p_x"
+			],
+			[
+				"enti",
+				"entitiees"
+			],
+			[
+				"en",
+				"entitiees"
+			],
+			[
+				"SDL",
+				"SDL_Texture"
+			],
+			[
+				"SDL_Re",
+				"SDL_Rect"
+			],
+			[
+				"re",
+				"renderer"
+			],
+			[
+				"p_",
+				"p_filePath"
+			],
+			[
+				"P",
+				"p_w"
+			]
+		]
+	},
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tabn",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"tabnine",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"tabni",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove res",
+				"Package Control: Remove Repository"
+			],
+			[
+				"remo",
+				"Remove Folder"
+			],
+			[
+				"rem",
+				"Remove Folder"
+			],
+			[
+				"r",
+				"Remove Folder"
+			],
+			[
+				"packa",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/entity.cpp",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/111.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/Make.bat",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/game.cpp",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/Makefile",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/11.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/object.h",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/object.cpp",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/object.cpp",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/object.h",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/entity.h",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/entity.h",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/game.h",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/main.cpp",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/entity.cpp",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/game.cpp",
+		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/audio.cpp",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/game.h",
+		"/C/Users/PickP/AppData/Roaming/Sublime Text 3/Packages/User/TabNine.sublime-settings",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/1.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/FPT.sublime-project",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/mke.bat",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res.lnk",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/lvl/1.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/lvl/11.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/lvl/tileset.png",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/audio.h",
+		"/C/Users/PickP/AppData/Roaming/Sublime Text 3/Packages/Default/exec.py",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/1.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/main.cpp",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/bin/Makefile",
+		"/C/Users/PickP/Desktop/Programming/FPT/include/game.h",
+		"/C/Users/PickP/Desktop/Programming/FPT/src/Makefile",
+		"/C/Users/PickP/Desktop/Programming/FPT/src/game.cpp",
+		"/C/Users/PickP/Desktop/Programming/FPT/game.cpp",
+		"/C/Users/PickP/Desktop/Programming/FPT/src/object.cpp",
+		"/C/Users/PickP/Desktop/Programming/FPT/include/object.h",
+		"/C/Users/PickP/Desktop/Programming/FPT/res/gfx/FPTModel.png",
+		"/C/Users/PickP/Desktop/Programming/FPT/src/main.cpp",
+		"/C/Users/PickP/Desktop/Programming/NewTut/include/main.hpp",
+		"/C/Users/PickP/Desktop/Programming/FG/FG.sublime-project",
+		"/C/Users/PickP/Desktop/Programming/FG/src/Makefile",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/src/renderwindow.cpp",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/include/RenderWindow.hpp",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/src/entity.cpp",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/include/Entity.hpp",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/src/Makefile",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/First.sublime-project",
+		"/C/Users/PickP/Desktop/Programming/TutSDL/main.cpp",
+		"/C/Users/PickP/Desktop/Programming/SDLTut/SDLTUT.sublime-project",
+		"/C/Users/PickP/Desktop/Programming/SDLTut/01_hello_SDL/01_hello_SDL.cpp"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fall",
+			"phase",
+			"ohase",
+			"fall",
+			"GRAV",
+			"get",
+			"stop",
+			"solid",
+			"topsolid",
+			"solid",
+			"so;id",
+			"44",
+			"43",
+			"44",
+			"[i]",
+			"cheat",
+			"speed",
+			"collis",
+			"GRAV",
+			"r",
+			"u",
+			"d",
+			"u",
+			"idle",
+			"stoppin",
+			"stppin",
+			"r",
+			"fall",
+			"running",
+			"false",
+			"return",
+			"returb",
+			"return",
+			"false",
+			"id",
+			"42",
+			"43",
+			"42",
+			"27",
+			"02",
+			"std::vector",
+			"std",
+			"/",
+			"//",
+			"tick",
+			"stoppin",
+			"tick",
+			"setc",
+			"draw",
+			"model",
+			"effect",
+			"C:",
+			"1000/",
+			"~",
+			"Aud",
+			"Audio",
+			"Audio::Audio",
+			"pause",
+			"std",
+			"frame",
+			"fps",
+			"GetT",
+			"gett",
+			"get",
+			"refresh_rate",
+			"gettime",
+			"tecture",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sTop",
+			"topsolid",
+			"cheatfly",
+			"reverse",
+			"rev",
+			"43",
+			"42",
+			"43",
+			"42",
+			"27"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 10":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 11":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 12":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 13":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 14":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 15":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 16":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 17":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 18":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 19":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 20":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 21":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 22":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 23":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 24":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 25":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 26":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 27":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 28":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 29":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 30":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 31":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 32":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 33":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 34":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 35":
+	{
+		"height": 102.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 5":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 6":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 7":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 8":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 9":
+	{
+		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 203.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
