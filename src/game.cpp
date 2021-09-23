@@ -137,8 +137,8 @@ void Game::update() {
   if(jumping == true) {
     j++;
 
-    if(l) {player.setDest(player.getDX()-speed, player.getDY()-22);
-    }else if(r) {player.setDest(player.getDX()+speed, player.getDY()-22);} else {player.setDest(player.getDX(), player.getDY()-22);}
+    if(phase){if(l) {player.setDest(player.getDX()-speed, player.getDY()-22);
+    }else if(r) {player.setDest(player.getDX()+speed, player.getDY()-22);} else {player.setDest(player.getDX(), player.getDY()-22);}}
     if (j>3) {
       jumping = false;
       j=0;
@@ -164,9 +164,9 @@ void Game::update() {
   
   
   if(fall) {
-    if (l) {player.setDest(player.getDX()-speed, player.getDY()+GRAV);
+    if phase { if (l) {player.setDest(player.getDX()-speed, player.getDY()+GRAV);
     }else if (r) {player.setDest(player.getDX()+speed, player.getDY()+GRAV);
-    } else player.setDest(player.getDX(), player.getDY()+GRAV);
+    } else player.setDest(player.getDX(), player.getDY()+GRAV);}
   }
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}
@@ -205,7 +205,7 @@ void Game::loadMap(const char* filename) {
 	      tmp.setDest((j*TILE_SIZE)+mx, (i*TILE_SIZE)+my, TILE_SIZE, TILE_SIZE);
 	      tmp.setId(current);
 	      if(current==12 || current==30 || current==35 || current==22 || current==48 || current==49) tmp.setsTop(0);
-        if(current==46 || current==47 || current ==48 || current ==49) tmp.setsSide(1);
+        if(current==51 || current==50) tmp.setsSide(1);
         
 	      map.push_back(tmp);
 	    } 
