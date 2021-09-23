@@ -163,7 +163,7 @@ void Game::update() {
   if(phase==0) fall=1;
   
   
-  if(fall) { player.setDest(player.getDX(), (player.getDY()+player.get_DH())+GRAV);}
+  if(fall) { player.setDest(player.getDX(), (player.getDY()+player.getDH())+GRAV);}
   
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}
