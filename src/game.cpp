@@ -137,8 +137,7 @@ void Game::update() {
   if(jumping == true) {
     j++;
 
-    if(l) {player.setDest(player.getDX()-speed, player.getDY()-22);
-    }else if(r) {player.setDest(player.getDX()+speed, player.getDY()-22);} else {player.setDest(player.getDX(), player.getDY()-22);}
+    player.setDest(player.getDX(), player.getDY()-22);
     if (j>3) {
       jumping = false;
       j=0;
@@ -153,7 +152,7 @@ void Game::update() {
   phase=1;
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
-      if(map[i].getsTop()) fall=0;
+      if(map[i].getsTop()){ fall=0;y=player.getDY();} 
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
         if(u) {player.setDest(player.getDX(), player.getDY()-(12*TILE_SIZE));u=d=0;}
@@ -161,13 +160,20 @@ void Game::update() {
       }
     }
   }
+  if(phase==0) fall=1;
   
   
-  if(fall) {
-     if (l) {player.setDest(player.getDX()-speed, player.getDY()+GRAV);
-    }else if (r) {player.setDest(player.getDX()+speed, player.getDY()+GRAV);
-    } else player.setDest(player.getDX(), player.getDY()+GRAV);
+  if(fall) { player.setDest(player.getDX(), player.getDY()+GRAV);
   }
+
+  for(int a=0; a<0; a++) {
+    if(map[a].getId() == 42) {fall=1;}
+  }
+
+
+
+  
+  
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}
   if(player.getDX() > WIDTH-100) {player.setDest(WIDTH-100, player.getDY()); scroll(-speed, 0);}
