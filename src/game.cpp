@@ -152,7 +152,7 @@ void Game::update() {
   phase=1;
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
-      if(map[i].getsTop()){ fall=0;} 
+      if(map[i].getsTop()){fall=0;} 
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
         if(u) {player.setDest(player.getDX(), player.getDY()-(12*TILE_SIZE));u=d=0;}
@@ -163,11 +163,7 @@ void Game::update() {
   if(phase==0) fall=1;
   
   
-  if(fall) { player.setDest(player.getDX(), player.getDY()+GRAV);}
-
-
-
-  
+  if(fall) { player.setDest(player.getDX(), (player.getDY()+player.get_DH())+GRAV);}
   
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}
@@ -205,7 +201,7 @@ void Game::loadMap(const char* filename) {
 	      tmp.setSource((current-1)*32, 0, 32, 32);
 	      tmp.setDest((j*TILE_SIZE)+mx, (i*TILE_SIZE)+my, TILE_SIZE, TILE_SIZE);
 	      tmp.setId(current);
-	      if(current==12 || current==30 || current==35 || current==22 || current==48 || current==49) tmp.setsTop(0);
+	      //if (current==42) tmp.setsTop(0);
         if(current==51 || current==50) tmp.setsSide(1);
         
 	      map.push_back(tmp);
