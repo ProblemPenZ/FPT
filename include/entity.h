@@ -16,6 +16,7 @@ public:
     void setCurAnimation(int c) {begin=0;curAnim = c;}
     int getCurAnimation() const {return curAnim;}
     void updateAnimation();
+    void move(Object a, Object b);
     void reverse(bool r) {rev=r;}
     void reverse(bool r, int nA) {rev=r; nAb=1; nA=newAnim;}
 

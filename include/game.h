@@ -9,11 +9,17 @@ using namespace std;
 #include <mingw_thread.h>
 #include <fstream>
 #include <vector>
+#include <algorithm>
+#include <iostream>
+#include <list>
+
+using namespace std;
 
 
 #include "audio.h"
 #include "object.h"
 #include "entity.h"
+#include "nameof.h"
 
 #define WIDTH 1280
 #define HEIGHT 720
@@ -35,6 +41,9 @@ class Game {
 	void drawMap();
 	void scroll(int x, int y);
 	bool collision(Object a, Object b);
+	void collisionn(Object a, Object b);
+	void move(Object a, Object b);
+	bool collision_type[4];
 	private:
 	SDL_Renderer* ren;
 	SDL_Window* win;
@@ -45,6 +54,7 @@ class Game {
 	int mousex, mousey;
 	Entity player;
 	vector<Object> map;
+	int pymomentum=15;
 	int mapX, mapY;
 	int speed;
 	int y =42;
@@ -52,6 +62,7 @@ class Game {
 	bool jumping = false;
 	bool cheatfly = false;
 	const int jumpHeight= 10;
+	string i;
 	int j = 0;
 	int idle;
 	int idlel;

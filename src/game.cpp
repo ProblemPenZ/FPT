@@ -131,6 +131,10 @@ void Game::input() {
 }
 
 void Game::update() {
+
+  pymomentum =15;
+
+  player.setDest(player.getDX(),player.getDY()+pymomentum);
   
   if(l) {if (player.getCurAnimation()!=walkl){player.setCurAnimation(walkl);}if(phase==1){player.setDest(player.getDX()-speed, player.getDY());}}
   if(r) {if(player.getCurAnimation()!=walkr) {player.setCurAnimation(walkr);}if(phase==1){player.setDest(player.getDX()+speed, player.getDY());}}
@@ -152,7 +156,7 @@ void Game::update() {
   phase=1;
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
-      if(map[i].getsTop()){fall=0;} 
+      if (collision_type[3]){player.setDest(player.getDX(),player.getDY()-GRAV);} 
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
         if(u) {player.setDest(player.getDX(), player.getDY()-(12*TILE_SIZE));u=d=0;}
@@ -231,13 +235,25 @@ void Game::drawMap() {
 }
 
 bool Game::collision(Object a, Object b) {
-  if((a.getDX() < (b.getDX()+b.getDW())) && ((a.getDX() + a.getDW()) > b.getDX()) 
-  && (a.getDY() < (b.getDY() + b.getDH())) && ((a.getDY() + a.getDH()) > b.getDY())) {
-    return true;
-  } else {
-    return false;
-  }
+  collision_type[0]=false;
+  collision_type[1]=false;
+  collision_type[2]=false;
+  collision_type[3]=false;
+  int aleft, aright, atop, abottom;
+  int bleft, bright, btop, bbottom;
+  aleft = a.getDX(); aright = a.getDX() + a.getDW(); atop = a.getDY(); abottom=a.getDY() + a.getDH();
+  bleft = b.getDX(); bright = b.getDX() + b.getDW(); btop = b.getDY(); bbottom=b.getDY() + b.getDH();
+  if (aleft < bright){collision_type[0]= true;return collision_type[0];}
+  if (aright > bleft){collision_type[1]= true;return collision_type[1];}
+  if (atop < bbottom){collision_type[2]= true;return collision_type[2];}
+  if (abottom > btop){collision_type[3]= true;return collision_type[3];}
 }
+
+
+
+
+
+
 
 
 
