@@ -47,7 +47,6 @@ class Game {
 	vector<Object> map;
 	int mapX, mapY;
 	int speed;
-	int y= 100000000000000000000;
 	bool l, r, u, d, fall,phase;
 	bool jumping = false;
 	bool cheatfly = false;
