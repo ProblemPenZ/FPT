@@ -156,7 +156,7 @@ void Game::update() {
   phase=1;
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
-      if (collision_type[3]){player.setDest(player.getDX(),player.getDY()-GRAV);} 
+      if(map[i].getsTop()) pymomentum=0;
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
         if(u) {player.setDest(player.getDX(), player.getDY()-(12*TILE_SIZE));u=d=0;}
@@ -167,7 +167,7 @@ void Game::update() {
   if(phase==0) fall=1;
   
   
-  if(fall) { player.setDest(player.getDX(), (player.getDY()+player.getDH())-GRAV);}
+ // if(fall) { player.setDest(player.getDX(), (player.getDY()+player.getDH())+GRAV);}
   
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}

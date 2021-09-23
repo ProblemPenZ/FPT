@@ -54,7 +54,7 @@ class Game {
 	int mousex, mousey;
 	Entity player;
 	vector<Object> map;
-	int pymomentum=15;
+	int pymomentum;
 	int mapX, mapY;
 	int speed;
 	int y =42;
