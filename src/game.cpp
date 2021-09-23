@@ -137,8 +137,8 @@ void Game::update() {
   if(jumping == true) {
     j++;
 
-    if(phase){if(l) {player.setDest(player.getDX()-speed, player.getDY()-22);
-    }else if(r) {player.setDest(player.getDX()+speed, player.getDY()-22);} else {player.setDest(player.getDX(), player.getDY()-22);}}
+    if(l) {player.setDest(player.getDX()-speed, player.getDY()-22);
+    }else if(r) {player.setDest(player.getDX()+speed, player.getDY()-22);} else {player.setDest(player.getDX(), player.getDY()-22);}
     if (j>3) {
       jumping = false;
       j=0;
@@ -164,9 +164,9 @@ void Game::update() {
   
   
   if(fall) {
-    if phase { if (l) {player.setDest(player.getDX()-speed, player.getDY()+GRAV);
+     if (l) {player.setDest(player.getDX()-speed, player.getDY()+GRAV);
     }else if (r) {player.setDest(player.getDX()+speed, player.getDY()+GRAV);
-    } else player.setDest(player.getDX(), player.getDY()+GRAV);}
+    } else player.setDest(player.getDX(), player.getDY()+GRAV);
   }
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}
