@@ -131,11 +131,7 @@ void Game::input() {
 }
 
 void Game::update() {
-
-  pymomentum =15;
-
-  player.setDest(player.getDX(),player.getDY()+pymomentum);
-  
+ 
   if(l) {if (player.getCurAnimation()!=walkl){player.setCurAnimation(walkl);}if(phase==1){player.setDest(player.getDX()-speed, player.getDY());}}
   if(r) {if(player.getCurAnimation()!=walkr) {player.setCurAnimation(walkr);}if(phase==1){player.setDest(player.getDX()+speed, player.getDY());}}
   if(jumping == true) {
@@ -167,7 +163,7 @@ void Game::update() {
   if(phase==0) fall=1;
   
   
- // if(fall) { player.setDest(player.getDX(), (player.getDY()+player.getDH())+GRAV);}
+ if(fall) { player.setDest(player.getDX(), player.getDY()+GRAV);}
   
 
   if(player.getDX() < 100) {player.setDest(100, player.getDY()); scroll(speed, 0);}

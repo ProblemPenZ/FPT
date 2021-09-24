@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"play",
+				"player.getDY()"
+			],
+			[
+				"player",
+				"player.getDY()"
+			],
+			[
+				"coll",
+				"collision_type"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"name",
+				"nameof"
+			],
+			[
+				"move",
+				"move(Object a, Object b)"
+			],
+			[
+				"Ob",
+				"Object a, Object b"
+			],
+			[
+				"O",
+				"Object a, Object b"
+			],
+			[
+				"GETD",
+				"GET_DH"
+			],
+			[
+				"get",
+				"getDY"
+			],
+			[
 				"map",
 				"map[i]"
 			],
@@ -22,10 +62,6 @@
 			[
 				"idle",
 				"idlel"
-			],
-			[
-				"get",
-				"getDX"
 			],
 			[
 				"se",
@@ -97,6 +133,14 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
 				"tabn",
 				"⌬ tabnine: Open Configuration"
 			],
@@ -137,10 +181,6 @@
 				"Remove Folder"
 			],
 			[
-				"packa",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
 				"p",
 				"Package Control: Install Package"
 			]
@@ -165,12 +205,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/11.level",
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/exec/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/entity.cpp",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/111.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/Make.bat",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/game.cpp",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/Makefile",
-		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/object.h",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/object.cpp",
 		"/C/Users/PickP/Desktop/Programming/GameDevTut-ep10-movement/object.cpp",
@@ -233,6 +274,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"collision",
 			"fall",
 			"phase",
 			"ohase",
@@ -360,7 +402,7 @@
 	"menu_visible": true,
 	"output.Terminus":
 	{
-		"height": 108.0
+		"height": 225.0
 	},
 	"output.Terminus 10":
 	{
