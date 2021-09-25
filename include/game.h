@@ -19,7 +19,6 @@ using namespace std;
 #include "audio.h"
 #include "object.h"
 #include "entity.h"
-#include "nameof.h"
 
 #define WIDTH 1280
 #define HEIGHT 720
@@ -54,7 +53,6 @@ class Game {
 	int mousex, mousey;
 	Entity player;
 	vector<Object> map;
-	int pymomentum;
 	int mapX, mapY;
 	int speed;
 	int y =42;

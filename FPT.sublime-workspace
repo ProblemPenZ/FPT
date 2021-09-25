@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"gets",
+				"getsTop"
+			],
+			[
 				"play",
 				"player.getDY()"
 			],
@@ -274,6 +278,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"renderco",
 			"collision",
 			"fall",
 			"phase",
@@ -551,7 +556,7 @@
 	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
 	"replace":
 	{
-		"height": 68.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
