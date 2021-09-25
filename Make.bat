@@ -1,4 +1,5 @@
 cd .\
+git commit -a
 cd .\src
 
 rmdir /s /q res
