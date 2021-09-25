@@ -23,7 +23,7 @@ using namespace std;
 #define WIDTH 1280
 #define HEIGHT 720
 #define TILE_SIZE 16
-#define GRAV 15
+#define GRAV 10
 #define PGRAV 10
 
 class Game {
