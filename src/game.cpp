@@ -152,7 +152,7 @@ void Game::update() {
   int ypos = player.getDY();
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
-      if(map[i].getsTop()) fall=0; setDest(player.getDX(), ypos);
+      if(map[i].getsTop()) fall=0; player.setDest(player.getDX(), ypos);
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
         if(u) {player.setDest(player.getDX(), player.getDY()-(10*TILE_SIZE));u=d=0;}
