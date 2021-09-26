@@ -209,6 +209,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/.git/COMMIT_EDITMSG",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/exec/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/entity.cpp",
@@ -376,7 +377,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -556,7 +557,7 @@
 	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -2,13 +2,26 @@
 	"folders":
 	[
 		{
-			"path": ".",
-			"folder_exclude_patterns": ["src/res", "build/exec/res"],
-			"file_exclude_patterns": ["*.sublime-project", "*.lnk", "Makefile", "*.bat", "*.pdn"],
+			"path": "FPT",
+			/*"folder_exclude_patterns": ["src/res", "build/exec/res"],*/
+			/*"file_exclude_patterns": ["*.sublime-project", "*.lnk", "Makefile", "*.bat", "*.pdn"],*/
 			
 		},
 		{
-			"path": "FPT"
+			"path": ".",
+			"file_exclude_patterns":
+			[
+				"*.sublime-project",
+				"*.lnk",
+				"Makefile",
+				"*.bat",
+				"*.pdn"
+			],
+			"folder_exclude_patterns":
+			[
+				"src/res",
+				"build/exec/res"
+			],
 		},
 	],
 
