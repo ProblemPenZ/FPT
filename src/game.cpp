@@ -149,9 +149,10 @@ void Game::update() {
   player.updateAnimation();
   fall=1;
   phase=1;
-  int ypos = player.getDY();
+  
   for(int i=0; i<map.size(); i++) {
     if(collision(player, map[i])) {
+      int ypos = player.getDY();
       if(map[i].getsTop()) fall=0; player.setDest(player.getDX(), ypos);
       if(map[i].getsSide()) phase=0;
        if(map[i].getId() == 35) {
