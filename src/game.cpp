@@ -10,7 +10,7 @@ Game::Game() {// Initialize the needed game stuff
     TTF_Init(); // Initialize text
     loadMap("res/lvl/11.level");
     running=true; //Make our program stay on until told otherwise
-    count=0; // frame counter
+    count=0; // frame countera
     font = TTF_OpenFont("res/ttfs/impact.ttf", 24); //Gets font for text
     mapX=mapY=0;
     speed = 4;

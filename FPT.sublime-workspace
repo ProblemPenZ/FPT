@@ -137,6 +137,18 @@
 		"selected_items":
 		[
 			[
+				"theme",
+				"UI: Customize Theme"
+			],
+			[
+				"agila",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			],
@@ -209,13 +221,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/game.cpp",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/.git/COMMIT_EDITMSG",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/exec/res/lvl/11.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/entity.cpp",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/res/res/lvl/111.level",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/Make.bat",
-		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/game.cpp",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/build/Makefile",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/include/object.h",
 		"/C/Users/PickP/Desktop/Programming/Projects/FPT/src/object.cpp",
@@ -377,7 +389,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -548,7 +560,7 @@
 	},
 	"output.exec":
 	{
-		"height": 203.0
+		"height": 332.0
 	},
 	"output.find_results":
 	{
@@ -557,7 +569,7 @@
 	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
